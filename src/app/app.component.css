@@ -1,0 +1,35 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background: #ccc;
+    padding: 0 40px;
+}
+
+.main{
+    background: #ccc;
+}
+
+.logo h1{
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline;
+}
+
+.menu ul li:nth-child(1){
+    margin-right: 30px;
+}
+
+.menu ul li:nth-child(2){
+    margin-right: 30px;
+}
