@@ -16,3 +16,22 @@
     width: 400px;
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .visitor-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .form-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
